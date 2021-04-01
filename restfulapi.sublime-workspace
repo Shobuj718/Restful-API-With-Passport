@@ -1,0 +1,612 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fir",
+				"firstname"
+			],
+			[
+				"re",
+				"register"
+			],
+			[
+				"la",
+				"lawyer-"
+			],
+			[
+				"in",
+				"inleadsit"
+			],
+			[
+				"co",
+				"component"
+			],
+			[
+				"comp",
+				"company-"
+			],
+			[
+				"empl",
+				"employee_id"
+			],
+			[
+				"sho",
+				"shorten_url"
+			],
+			[
+				"pro",
+				"project_name"
+			],
+			[
+				"form",
+				"formdata"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"succes",
+				"successfully"
+			],
+			[
+				"em",
+				"employee_id"
+			],
+			[
+				"v",
+				"vouchers"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"emp",
+				"employee-"
+			],
+			[
+				"old",
+				"old_invoice"
+			],
+			[
+				"invo",
+				"invoice-"
+			],
+			[
+				"invoice",
+				"invoice-"
+			],
+			[
+				"inv",
+				"invoice"
+			],
+			[
+				"invoic",
+				"invoice-"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"min",
+				"minimum"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n\nnamespace App;\n\nuse Illuminate\\Contracts\\Auth\\MustVerifyEmail;\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\n\n\nclass User extends Authenticatable\n{\n    use Notifiable;\n\n    /**\n     * The attributes that are mass assignable.\n     *\n     * @var array\n     */\n    protected $fillable = [\n        'name', 'email', 'password',\n    ];\n\n    /**\n     * The attributes that should be hidden for arrays.\n     *\n     * @var array\n     */\n    protected $hidden = [\n        'password', 'remember_token',\n    ];\n\n    /**\n     * The attributes that should be cast to native types.\n     *\n     * @var array\n     */\n    protected $casts = [\n        'email_verified_at' => 'datetime',\n    ];\n}\n",
+			"file": "app/User.php",
+			"file_size": 734,
+			"file_write_time": 132617237890466257,
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 185.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/restfulapi",
+		"/D/xampp/htdocs/restfulapi/app"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/restfulapi/.env",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+		"/D/xampp/htdocs/restfulapi/restfulapi.sublime-project",
+		"/D/xampp/htdocs/udemyapi/.env",
+		"/D/xampp/htdocs/LAW-APP/resources/views/pages/single-category.blade.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/routes/api.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Controllers/API/ProjectController.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Controllers/API/AuthController.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Resources/ProjectResource.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Models/User.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Models/Project.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/.env",
+		"/D/xampp/htdocs/laravel_8_api_crud/database/migrations/2021_03_31_093502_create_projects_table.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/config/auth.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Providers/AuthServiceProvider.php",
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Providers/AppServiceProvider.php",
+		"/D/xampp/htdocs/LAW-APP/public/new-landing-tla/assets/css/landing-style.css",
+		"/C/Users/shobu/Homestead/Homestead.yaml",
+		"/C/Users/shobu/code/laravel/.env",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/xampp/htdocs/LAW-APP/resources/views/layouts/header.blade.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/admin/category/categoryEdit.blade.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Pages/LandingPageController.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Admin/CategoryController.php",
+		"/D/xampp/htdocs/live.miyn.app/app/Http/Controllers/Booking/BookingController.php",
+		"/D/xampp/htdocs/LAW-APP/routes/web.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Pages/DashboardController.php",
+		"/D/xampp/htdocs/LAW-APP/app/Model/User.php",
+		"/D/xampp/htdocs/LAW-APP/app/Model/Category.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/lawyer/edit_profile.blade.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/layouts/footer.blade.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/master.blade.php",
+		"/D/xampp/htdocs/LAW-APP/app/Model/Skill.php",
+		"/D/xampp/htdocs/MIYN Github/client.miyn.app/resources/views/client/client_profile.blade.php",
+		"/D/xampp/htdocs/MIYN Github/client.miyn.app/app/Http/Controllers/ClientPortalController.php",
+		"/D/xampp/htdocs/MIYN Github/client.miyn.app/routes/web.php",
+		"/D/xampp/htdocs/MIYN Github/client.miyn.app/.env",
+		"/D/xampp/htdocs/MIYN Github/client.miyn.app/storage/logs/laravel.log",
+		"/D/xampp/htdocs/LAW-APP/resources/views/admin/category/categoryAdd.blade.php",
+		"/D/xampp/htdocs/LAW-APP/database/migrations/2021_03_27_040357_add_second_header_to_categories_table.php",
+		"/D/xampp/htdocs/LAW-APP/database/migrations/2021_03_23_055621_add_logo_to_categories_table.php",
+		"/D/xampp/htdocs/MIYN Github/api.miyn.app/composer.json",
+		"/D/xampp/htdocs/MIYN Github/api.miyn.app/config/cors.php",
+		"/D/xampp/htdocs/MIYN Github/api.miyn.app/app/Http/Middleware/Cors.php",
+		"/D/xampp/htdocs/live.miyn.app/config/cors.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/config/cors.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/admin/app.blade.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Admin/ProjectController.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/admin/case/caseList.blade.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Admin/CaseController.php",
+		"/D/xampp/htdocs/LAW-APP/.env",
+		"/D/xampp/htdocs/LAW-APP/storage/logs/laravel.log",
+		"/D/xampp/htdocs/LAW-APP/app/Notifications/AdminApprovedProject.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/emails/approved_project.blade.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/emails/approved_project_for_admin.blade.php",
+		"/D/xampp/htdocs/LAW-APP/app/Notifications/AdminEmailAfterCaseApproved.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/composer.json",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/resources/views/master.blade.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/resources/views/master_.blade.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/resources/views/app/inbox.blade.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/app/Http/Controllers/App/InboxController.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/routes/web.php",
+		"/D/xampp/htdocs/MIYN Github/app.miyn.app/app/Http/Controllers/App/DashboardController.php",
+		"/D/xampp/htdocs/office-api/resources/views/welcome.blade.php",
+		"/D/xampp/htdocs/live.miyn.app/config/app.php",
+		"/D/xampp/htdocs/live.miyn.app/composer.json",
+		"/C/Users/shobu/Downloads/index.html",
+		"/D/xampp/htdocs/office-api/config/cors.php",
+		"/D/xampp/htdocs/app.miyn.app/config/cors.php",
+		"/D/xampp/htdocs/app.miyn.app/composer.json",
+		"/D/xampp/htdocs/live.miyn.app/resources/views/welcome.blade.php",
+		"/D/xampp/htdocs/office-api/routes/web.php",
+		"/D/xampp/htdocs/office-api/app/Http/Resources/Product.php",
+		"/D/xampp/htdocs/office-api/app/Http/Controllers/API/ProductController.php",
+		"/D/xampp/htdocs/office-api/app/Http/Controllers/API/RegisterController.php",
+		"/D/xampp/htdocs/office-api/app/Http/Controllers/API/BaseController.php",
+		"/D/xampp/htdocs/office-api/resources/views/contact.blade.php",
+		"/D/xampp/htdocs/office-api/app/Http/Controllers/PagesController.php",
+		"/D/xampp/htdocs/office-api/routes/api.php",
+		"/D/xampp/htdocs/office-api/app/Models/Product.php",
+		"/D/xampp/htdocs/office-api/app/Models/User.php",
+		"/D/xampp/htdocs/office-api/config/auth.php",
+		"/D/xampp/htdocs/office-api/config/app.php",
+		"/D/xampp/htdocs/office-api/database/migrations/2021_03_24_034143_create_products_table.php",
+		"/D/xampp/htdocs/office-api/.env",
+		"/D/xampp/htdocs/office-management/app/Http/Controllers/API/AuthController.php",
+		"/D/xampp/htdocs/office-management/app/Providers/RouteServiceProvider.php",
+		"/D/xampp/htdocs/office-management/storage/logs/laravel.log",
+		"/D/xampp/htdocs/office-management/routes/api.php",
+		"/D/xampp/htdocs/office-management/app/Providers/AuthServiceProvider.php",
+		"/D/xampp/htdocs/office-management/app/Models/User.php",
+		"/D/xampp/htdocs/office-management/config/app.php",
+		"/D/xampp/htdocs/office-management/config/auth.php",
+		"/D/xampp/htdocs/office-management/.env",
+		"/D/xampp/htdocs/LAW-APP/resources/views/pages/landing_page.blade.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Lawyer/LawyerProfileController.php",
+		"/D/xampp/htdocs/live.miyn.app/resources/views/livesite/doctor_theme.blade.php",
+		"/D/xampp/htdocs/LAW-APP/public/new-landing-tla/index.html",
+		"/D/xampp/htdocs/migration-generator/.env",
+		"/D/xampp/htdocs/LAW-APP/database/migrations/2021_03_22_064155_add_title_to_categories_table.php",
+		"/D/xampp/htdocs/LAW-APP/resources/views/client/case_create.blade.php",
+		"/D/xampp/htdocs/LAW-APP/database/migrations/2021_03_22_063250_add_title_to_categories_table.php",
+		"/D/xampp/htdocs/LAW APP/.env",
+		"/D/xampp/htdocs/app-the-law-app/resources/views/pages/single-category.blade.php",
+		"/D/xampp/htdocs/app-the-law-app/app/Http/Controllers/Pages/LandingPageController.php",
+		"/D/xampp/htdocs/app-the-law-app/.env",
+		"/D/xampp/htdocs/app-the-law-app/routes/web.php",
+		"/D/xampp/htdocs/app-the-law-app/resources/views/admin/category/categoryAdd.blade.php",
+		"/D/xampp/htdocs/app-the-law-app/app/Http/Controllers/Admin/CategoryController.php",
+		"/D/xampp/htdocs/app-the-law-app/resources/views/admin/category/categoryEdit.blade.php",
+		"/D/xampp/htdocs/app-the-law-app/resources/views/pages/landing_page.blade.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/app/Http/Controllers/App/DashboardController.php",
+		"/D/xampp/htdocs/new_tla_backup_09-03-2021/new_tla_backup_09-03-2021/resources/views/pages/landing_page.blade.php",
+		"/D/xampp/htdocs/laravel-8/routes/web.php",
+		"/D/xampp/htdocs/laravel-8/app/Http/Kernel.php",
+		"/D/xampp/htdocs/laravel-8/app/Http/Middleware/FrameHeadersMiddleware.php",
+		"/D/xampp/htdocs/laravel-8/resources/views/welcome.blade.php",
+		"/D/xampp/htdocs/example-app/composer.json",
+		"/D/xampp/htdocs/migration-generator/public/css/app.css",
+		"/D/xampp/htdocs/the-law-app/public/db.php",
+		"/D/xampp/htdocs/migration-generator/database/migrations/2021_03_13_033942_create_users_table.php",
+		"/D/xampp/htdocs/blog/composer.json",
+		"/D/xampp/htdocs/fresh-laravel-6/config/services.php",
+		"/D/xampp/htdocs/fresh-laravel-6/composer.json",
+		"/D/xampp/htdocs/fresh-laravel-6/public/index.php",
+		"/D/xampp/htdocs/fresh-laravel-6/routes/api.php"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"description",
+			"$category",
+			"title",
+			"pages.search.cases",
+			"search-cases",
+			"googlema",
+			"location_name",
+			"case_search",
+			"categories",
+			"categ",
+			"cate",
+			"live",
+			"live.miyn.app",
+			"font-a",
+			"updateProfile",
+			"profile",
+			"sendGreetingFormData",
+			"sendConvMessageFromClient",
+			"profile",
+			"alert",
+			"/single-case/",
+			"single-case",
+			"$user",
+			"AdminApprovedProject",
+			"MIYNLi",
+			"inbox.",
+			"inbox_clients",
+			"category-item-conten",
+			"category-item-contents",
+			"color_bg",
+			"$color_bg",
+			"username",
+			"https://thelawapp.com.au/",
+			"new-landing-tla/assets/img/",
+			"new-landing-tla/",
+			"category/",
+			"/category/",
+			"banner-area-wrapper",
+			"assets/img",
+			"assets/",
+			"image_show",
+			"image_view",
+			"attachment",
+			"landing.page",
+			"'/'",
+			"landingPage",
+			"total_booking_this_month",
+			"client_short_list",
+			"business_size",
+			"client_info",
+			"search-result-img",
+			"vouch",
+			"mb-10",
+			"getkeyr",
+			"mt",
+			"mb-10",
+			"fileinput-filename",
+			"practice_modal",
+			"myModal",
+			"csrf-token",
+			"file-name",
+			"old-invoice",
+			"oldInvoice",
+			"voucher",
+			"voucher.approve",
+			"amount",
+			"invoice",
+			"{\n",
+			"company",
+			"overtime",
+			"message",
+			"col-start-align",
+			"custom",
+			"800",
+			".card-view",
+			"invoiceDownload",
+			"card-avatar",
+			"class=\"card-avatar\"",
+			"qr-code",
+			"withp",
+			"jobMatesProfileError",
+			"edit-p",
+			"user6",
+			"user2",
+			"old_invoice",
+			"invoice",
+			"Y",
+			"../../",
+			"vouch",
+			"dump",
+			"employee_id",
+			"passport_id",
+			"invoices",
+			"dump",
+			"items",
+			"fopen",
+			"add new in",
+			"earning_tab_8",
+			"$employee",
+			"img",
+			"invoce_date",
+			"add new in",
+			"class=\"panel-heading bg-orange\"",
+			"profile",
+			"uid",
+			".client",
+			"$client",
+			"$employee",
+			"$client",
+			"value=\"{{",
+			"profile_image",
+			"->uid",
+			"$client",
+			"profile_image",
+			"$passport",
+			"passport",
+			"clients",
+			"user_image",
+			"0",
+			"user_image",
+			"Auth",
+			"image_show",
+			"image_view",
+			"$user",
+			"image_show",
+			"navigation",
+			"$client",
+			"setting"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"i"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "restfulapi.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"restfulapi\\app\\User.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$add"
+			]
+		],
+		"width": 980.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 380.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
