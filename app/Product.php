@@ -2,9 +2,10 @@
 
 namespace App;
 
-use App\Model\Seller;
-use App\Model\Category;
-use Stripe\Issuing\Transaction;
+use App\Seller;
+use App\Product;
+use App\Category;
+use App\Transaction;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
