@@ -19,3 +19,32 @@ use Illuminate\Support\Facades\Route;
 });*/
 
 
+/*
+	Buyers
+*/ 
+Route::resource('buyers', 'Buyer\BuyerController', ['only' => ['index', 'show']]);
+
+/*
+	Buyers
+*/ 
+Route::resource('categories', 'Category\CategoryController', ['except' => ['create', 'edit']]);
+
+/*
+	Buyers
+*/ 
+Route::resource('products', 'Product\ProductController', ['only' => ['index', 'show']]);
+
+/*
+	Buyers
+*/ 
+Route::resource('sellers', 'Seller\SellerController', ['only' => ['index', 'show']]);
+
+/*
+	Buyers
+*/ 
+Route::resource('transactions', 'Transaction\TransactionController', ['only' => ['index', 'show']]);
+
+/*
+	Buyers
+*/ 
+Route::resource('users', 'User\UserController', ['except' => ['create', 'edit']]);
