@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"Bu",
+				"BuyerScope"
+			],
+			[
+				"err",
+				"errorResponse"
+			],
+			[
+				"bu",
+				"buyers"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"rand",
+				"random"
+			],
+			[
+				"ve",
+				"verified"
+			],
+			[
 				"fir",
 				"firstname"
 			],
@@ -100,10 +128,6 @@
 				"margin-bottom\tproperty"
 			],
 			[
-				"requ",
-				"request"
-			],
-			[
 				"user",
 				"username"
 			],
@@ -132,13 +156,28 @@
 	"buffers":
 	[
 		{
-			"contents": "<?php\n\nnamespace App;\n\nuse Illuminate\\Contracts\\Auth\\MustVerifyEmail;\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\n\n\nclass User extends Authenticatable\n{\n    use Notifiable;\n\n    /**\n     * The attributes that are mass assignable.\n     *\n     * @var array\n     */\n    protected $fillable = [\n        'name', 'email', 'password',\n    ];\n\n    /**\n     * The attributes that should be hidden for arrays.\n     *\n     * @var array\n     */\n    protected $hidden = [\n        'password', 'remember_token',\n    ];\n\n    /**\n     * The attributes that should be cast to native types.\n     *\n     * @var array\n     */\n    protected $casts = [\n        'email_verified_at' => 'datetime',\n    ];\n}\n",
-			"file": "app/User.php",
-			"file_size": 734,
-			"file_write_time": 132617237890466257,
+			"file": "routes/api.php",
 			"settings":
 			{
-				"buffer_size": 694,
+				"buffer_size": 1210,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Category/CategoryController.php",
+			"settings":
+			{
+				"buffer_size": 1672,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Category.php",
+			"settings":
+			{
+				"buffer_size": 373,
 				"line_ending": "Unix"
 			}
 		}
@@ -184,11 +223,60 @@
 	"expanded_folders":
 	[
 		"/D/xampp/htdocs/restfulapi",
-		"/D/xampp/htdocs/restfulapi/app"
+		"/D/xampp/htdocs/restfulapi/app",
+		"/D/xampp/htdocs/restfulapi/app/Http",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Category"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/restfulapi/app/Transaction.php",
+		"/D/xampp/htdocs/restfulapi/app/Product.php",
+		"/D/xampp/htdocs/restfulapi/app/Category.php",
+		"/D/xampp/htdocs/restfulapi/app/User.php",
+		"/D/xampp/htdocs/restfulapi/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054503_create_transactions_table.php",
+		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054445_create_products_table.php",
+		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054429_create_categories_table.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/User/UserController.php",
+		"/D/xampp/htdocs/restfulapi/app/Scopes/SellerScope.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Seller/SellerController.php",
+		"/D/xampp/htdocs/restfulapi/app/Seller.php",
+		"/D/xampp/htdocs/restfulapi/app/Buyer.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Buyer/BuyerController.php",
+		"/D/xampp/htdocs/restfulapi/app/Scopes/BuyerScope.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasGlobalScopes.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/ApiController.php",
+		"/D/xampp/htdocs/fresh-laravel-6/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/D/xampp/htdocs/restfulapi/app/Exceptions/Handler.php",
+		"/D/xampp/htdocs/restfulapi/app/Traits/ApiResponser.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/D/xampp/htdocs/restfulapi/storage/logs/laravel.log",
 		"/D/xampp/htdocs/restfulapi/.env",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/johnstevenson/json-works/src/Schema/ValidationException.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/league/flysystem/src/FileExistsException.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/google/apiclient/src/Exception.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/node_modules/axios/dist/axios.js",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/twilio/sdk/src/Twilio/Version.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/app/Exceptions/Handler.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Category/CategoryController.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Transaction/TransactionController.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Product/ProductController.php",
+		"/D/xampp/htdocs/restfulapi/database/seeds/DatabaseSeeder.php",
+		"/C/Users/shobu/AppData/Local/Temp/Temp1_RESTful-API-with-Laravel-Definitive-Guide-master.zip/RESTful-API-with-Laravel-Definitive-Guide-master/app/Http/Controllers/User/UserController.php",
+		"/D/xampp/htdocs/restfulapi/routes/web.php",
+		"/D/xampp/htdocs/restfulapi/database/factories/UserFactory.php",
+		"/C/Users/shobu/AppData/Local/Temp/Temp1_RESTful-API-with-Laravel-Definitive-Guide-master.zip/RESTful-API-with-Laravel-Definitive-Guide-master/app/Http/Controllers/ApiController.php",
+		"/D/xampp/htdocs/fresh-laravel-6/app/Http/Controllers/ApiController.php",
+		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_085938_category_product_table.php",
+		"/D/xampp/htdocs/restfulapi/config/database.php",
+		"/D/xampp/htdocs/restfulapi/app/Providers/AppServiceProvider.php",
+		"/D/xampp/htdocs/restfulapi/composer.json",
+		"/D/xampp/htdocs/restfulapi/app/Providers/RouteServiceProvider.php",
+		"/C/Users/shobu/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/C/Users/shobu/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/C/Users/shobu/AppData/Roaming/Sublime Text 3/Packages/npm-install/NpmInstall.sublime-settings",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
 		"/D/xampp/htdocs/restfulapi/restfulapi.sublime-project",
@@ -269,57 +357,11 @@
 		"/D/xampp/htdocs/office-api/resources/views/contact.blade.php",
 		"/D/xampp/htdocs/office-api/app/Http/Controllers/PagesController.php",
 		"/D/xampp/htdocs/office-api/routes/api.php",
-		"/D/xampp/htdocs/office-api/app/Models/Product.php",
-		"/D/xampp/htdocs/office-api/app/Models/User.php",
-		"/D/xampp/htdocs/office-api/config/auth.php",
-		"/D/xampp/htdocs/office-api/config/app.php",
-		"/D/xampp/htdocs/office-api/database/migrations/2021_03_24_034143_create_products_table.php",
-		"/D/xampp/htdocs/office-api/.env",
-		"/D/xampp/htdocs/office-management/app/Http/Controllers/API/AuthController.php",
-		"/D/xampp/htdocs/office-management/app/Providers/RouteServiceProvider.php",
-		"/D/xampp/htdocs/office-management/storage/logs/laravel.log",
-		"/D/xampp/htdocs/office-management/routes/api.php",
-		"/D/xampp/htdocs/office-management/app/Providers/AuthServiceProvider.php",
-		"/D/xampp/htdocs/office-management/app/Models/User.php",
-		"/D/xampp/htdocs/office-management/config/app.php",
-		"/D/xampp/htdocs/office-management/config/auth.php",
-		"/D/xampp/htdocs/office-management/.env",
-		"/D/xampp/htdocs/LAW-APP/resources/views/pages/landing_page.blade.php",
-		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Lawyer/LawyerProfileController.php",
-		"/D/xampp/htdocs/live.miyn.app/resources/views/livesite/doctor_theme.blade.php",
-		"/D/xampp/htdocs/LAW-APP/public/new-landing-tla/index.html",
-		"/D/xampp/htdocs/migration-generator/.env",
-		"/D/xampp/htdocs/LAW-APP/database/migrations/2021_03_22_064155_add_title_to_categories_table.php",
-		"/D/xampp/htdocs/LAW-APP/resources/views/client/case_create.blade.php",
-		"/D/xampp/htdocs/LAW-APP/database/migrations/2021_03_22_063250_add_title_to_categories_table.php",
-		"/D/xampp/htdocs/LAW APP/.env",
-		"/D/xampp/htdocs/app-the-law-app/resources/views/pages/single-category.blade.php",
-		"/D/xampp/htdocs/app-the-law-app/app/Http/Controllers/Pages/LandingPageController.php",
-		"/D/xampp/htdocs/app-the-law-app/.env",
-		"/D/xampp/htdocs/app-the-law-app/routes/web.php",
-		"/D/xampp/htdocs/app-the-law-app/resources/views/admin/category/categoryAdd.blade.php",
-		"/D/xampp/htdocs/app-the-law-app/app/Http/Controllers/Admin/CategoryController.php",
-		"/D/xampp/htdocs/app-the-law-app/resources/views/admin/category/categoryEdit.blade.php",
-		"/D/xampp/htdocs/app-the-law-app/resources/views/pages/landing_page.blade.php",
-		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/app/Http/Controllers/App/DashboardController.php",
-		"/D/xampp/htdocs/new_tla_backup_09-03-2021/new_tla_backup_09-03-2021/resources/views/pages/landing_page.blade.php",
-		"/D/xampp/htdocs/laravel-8/routes/web.php",
-		"/D/xampp/htdocs/laravel-8/app/Http/Kernel.php",
-		"/D/xampp/htdocs/laravel-8/app/Http/Middleware/FrameHeadersMiddleware.php",
-		"/D/xampp/htdocs/laravel-8/resources/views/welcome.blade.php",
-		"/D/xampp/htdocs/example-app/composer.json",
-		"/D/xampp/htdocs/migration-generator/public/css/app.css",
-		"/D/xampp/htdocs/the-law-app/public/db.php",
-		"/D/xampp/htdocs/migration-generator/database/migrations/2021_03_13_033942_create_users_table.php",
-		"/D/xampp/htdocs/blog/composer.json",
-		"/D/xampp/htdocs/fresh-laravel-6/config/services.php",
-		"/D/xampp/htdocs/fresh-laravel-6/composer.json",
-		"/D/xampp/htdocs/fresh-laravel-6/public/index.php",
-		"/D/xampp/htdocs/fresh-laravel-6/routes/api.php"
+		"/D/xampp/htdocs/office-api/app/Models/Product.php"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -334,6 +376,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<",
 			"description",
 			"$category",
 			"title",
@@ -460,8 +503,7 @@
 			"$user",
 			"image_show",
 			"navigation",
-			"$client",
-			"setting"
+			"$client"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -480,24 +522,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/User.php",
+					"file": "routes/api.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 694,
+						"buffer_size": 1210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								184,
-								184
+								670,
+								670
 							]
 						],
 						"settings":
@@ -506,10 +548,69 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 281.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/Category/CategoryController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								784,
+								784
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Category.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
