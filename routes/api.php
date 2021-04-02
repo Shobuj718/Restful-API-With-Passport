@@ -25,26 +25,26 @@ use Illuminate\Support\Facades\Route;
 Route::resource('buyers', 'Buyer\BuyerController', ['only' => ['index', 'show']]);
 
 /*
-	Buyers
+	Category
 */ 
 Route::resource('categories', 'Category\CategoryController', ['except' => ['create', 'edit']]);
 
 /*
-	Buyers
+	Product
 */ 
 Route::resource('products', 'Product\ProductController', ['only' => ['index', 'show']]);
 
 /*
-	Buyers
+	Seller
 */ 
 Route::resource('sellers', 'Seller\SellerController', ['only' => ['index', 'show']]);
 
 /*
-	Buyers
+	Transaction
 */ 
 Route::resource('transactions', 'Transaction\TransactionController', ['only' => ['index', 'show']]);
 
 /*
-	Buyers
+	User
 */ 
 Route::resource('users', 'User\UserController', ['except' => ['create', 'edit']]);
