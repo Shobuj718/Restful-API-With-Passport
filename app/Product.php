@@ -33,7 +33,7 @@ class Product extends Model
     ];
 
     public function isAvailable(){
-    	return $this->statts == Product::AVAILABLE_PRODUCT;
+    	return $this->status == Product::AVAILABLE_PRODUCT;
     }
 
     public function seller()
