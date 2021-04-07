@@ -155,66 +155,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/xampp/htdocs/whip/routes/web.php",
-			"settings":
-			{
-				"buffer_size": 859,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/whip/app/User.php",
-			"settings":
-			{
-				"buffer_size": 991,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/whip/config/mail.php",
-			"settings":
-			{
-				"buffer_size": 3377,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/LAW-APP/config/mail.php",
-			"settings":
-			{
-				"buffer_size": 4226,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php",
-			"settings":
-			{
-				"buffer_size": 2267,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/whip/.env",
-			"settings":
-			{
-				"buffer_size": 868,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/xampp/htdocs/MIYN Github/app.miyn.app/config/mail.php",
-			"settings":
-			{
-				"buffer_size": 4676,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -256,20 +196,33 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/whip",
-		"/D/xampp/htdocs/whip/app",
-		"/D/xampp/htdocs/whip/app/Jobs",
-		"/D/xampp/htdocs/whip/app/Notifications",
-		"/D/xampp/htdocs/whip/config",
-		"/D/xampp/htdocs/whip/resources",
-		"/D/xampp/htdocs/whip/resources/views",
-		"/D/xampp/htdocs/whip/resources/views/emails",
-		"/D/xampp/htdocs/MIYN Github",
-		"/D/xampp/htdocs/MIYN Github/app.miyn.app",
-		"/D/xampp/htdocs/MIYN Github/app.miyn.app/config"
 	],
 	"file_history":
 	[
+		"/D/xampp/htdocs/restfulapi/routes/api.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/UserTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Buyer.php",
+		"/D/xampp/htdocs/restfulapi/app/Category.php",
+		"/D/xampp/htdocs/restfulapi/app/Product.php",
+		"/D/xampp/htdocs/restfulapi/app/Seller.php",
+		"/D/xampp/htdocs/restfulapi/app/Transaction.php",
+		"/D/xampp/htdocs/restfulapi/app/User.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/SellerTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/BuyerTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/TransactionTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/CategoryTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/ProductTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Middleware/SignatureMiddlware.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Kernel.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+		"/D/xampp/htdocs/live.miyn.app/resources/views/emails/quote_proposal_send_to_business_admin_new.blade.php",
+		"/D/xampp/htdocs/live.miyn.app/app/Mail/QuoteProposalEmailSendToBusinessAdmin.php",
+		"/D/xampp/htdocs/whip/.env",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php",
+		"/D/xampp/htdocs/LAW-APP/config/mail.php",
+		"/D/xampp/htdocs/whip/config/mail.php",
+		"/D/xampp/htdocs/whip/app/User.php",
+		"/D/xampp/htdocs/whip/routes/web.php",
 		"/D/xampp/htdocs/whip/app/Notifications/UserVerifyEmailQueued.php",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Auth/MustVerifyEmail.php",
 		"/D/xampp/htdocs/whip/app/Jobs/UserVerifyEmailJob.php",
@@ -277,7 +230,6 @@
 		"/D/xampp/htdocs/whip/app/Mail/UserVerifyEmail.php",
 		"/D/xampp/htdocs/whip/routes/api.php",
 		"/D/xampp/htdocs/whip/config/queue.php",
-		"/D/xampp/htdocs/whip/.env",
 		"/D/xampp/htdocs/whip/app/Http/Controllers/Auth/RegisterController.php",
 		"/D/xampp/htdocs/whip/app/Http/Controllers/Pages/PagesController.php",
 		"/D/xampp/htdocs/whip/app/Console/Kernel.php",
@@ -312,7 +264,6 @@
 		"/D/xampp/htdocs/timewhipe/resources/views/timewhipe.blade.php",
 		"/D/xampp/htdocs/timewhipe/resources/views/all-task.blade.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Seller/SellerProductController.php",
-		"/D/xampp/htdocs/restfulapi/routes/api.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Seller/SellerCategoryController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Seller/SellerTransactionController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Seller/SellerBuyerController.php",
@@ -320,12 +271,7 @@
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Category/CategorySellerController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Category/CategoryProductController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Buyer/BuyerSellerController.php",
-		"/D/xampp/htdocs/restfulapi/app/Product.php",
-		"/D/xampp/htdocs/restfulapi/app/Category.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Category/CategoryBuyerController.php",
-		"/D/xampp/htdocs/restfulapi/app/Transaction.php",
-		"/D/xampp/htdocs/restfulapi/app/Seller.php",
-		"/D/xampp/htdocs/restfulapi/app/Buyer.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Buyer/BuyerProductController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Buyer/BuyerTransactionController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Buyer/BuyerCategoryController.php",
@@ -335,7 +281,6 @@
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Transaction/TransactionController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Transaction/TransactionSellerController.php",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/node_modules/opentok-accelerator-core/browser/opentok-acc-core.js",
-		"/D/xampp/htdocs/restfulapi/app/User.php",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054503_create_transactions_table.php",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054445_create_products_table.php",
@@ -381,27 +326,11 @@
 		"/D/xampp/htdocs/laravel_8_api_crud/routes/api.php",
 		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Controllers/API/ProjectController.php",
 		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Controllers/API/AuthController.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Resources/ProjectResource.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Models/User.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Models/Project.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/.env",
-		"/D/xampp/htdocs/laravel_8_api_crud/database/migrations/2021_03_31_093502_create_projects_table.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/config/auth.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Providers/AuthServiceProvider.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Providers/AppServiceProvider.php",
-		"/D/xampp/htdocs/LAW-APP/public/new-landing-tla/assets/css/landing-style.css",
-		"/C/Users/shobu/Homestead/Homestead.yaml",
-		"/C/Users/shobu/code/laravel/.env",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/D/xampp/htdocs/LAW-APP/resources/views/layouts/header.blade.php",
-		"/D/xampp/htdocs/LAW-APP/resources/views/admin/category/categoryEdit.blade.php",
-		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Pages/LandingPageController.php",
-		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Admin/CategoryController.php",
-		"/D/xampp/htdocs/live.miyn.app/app/Http/Controllers/Booking/BookingController.php"
+		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Resources/ProjectResource.php"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -416,6 +345,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user",
+			"category",
+			"user",
+			"buyer",
+			"user",
 			"clientList",
 			"approve-list",
 			"approved-list",
@@ -538,12 +472,7 @@
 			"profile_image",
 			"$passport",
 			"passport",
-			"clients",
-			"user_image",
-			"0",
-			"user_image",
-			"Auth",
-			"image_show"
+			"clients"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -562,218 +491,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/xampp/htdocs/whip/routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 859,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								527,
-								527
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/xampp/htdocs/whip/app/User.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 991,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								988,
-								988
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/xampp/htdocs/whip/config/mail.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3377,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2005,
-								2005
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/xampp/htdocs/LAW-APP/config/mail.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Auth/Notifications/VerifyEmail.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2267,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								672,
-								672
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 330.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/D/xampp/htdocs/whip/.env",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 868,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								254,
-								254
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 66.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/D/xampp/htdocs/MIYN Github/app.miyn.app/config/mail.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 4676,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -866,7 +585,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 359.0,
+	"side_bar_width": 427.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
