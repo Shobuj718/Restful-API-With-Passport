@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"paginate"
+			],
+			[
+				"deleted",
+				"deleted_at"
+			],
+			[
 				"Bu",
 				"BuyerScope"
 			],
@@ -155,6 +163,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 3209,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Traits/ApiResponser.php",
+			"settings":
+			{
+				"buffer_size": 2635,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -196,22 +221,47 @@
 	},
 	"expanded_folders":
 	[
+		"/D/xampp/htdocs/MIYN Github",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app/Mail",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/emails",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/quote"
 	],
 	"file_history":
 	[
-		"/D/xampp/htdocs/restfulapi/routes/api.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/emails/custom_user_email.blade.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/emails/custom_email_to_business_admin.blade.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app/Mail/CustomFormEmailSendToUser.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app/Mail/CustomFormEmailSendToBusinessAdmin.php",
+		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/node_modules/opentok-accelerator-core/browser/opentok-acc-core.js",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/CategoryTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/ProductTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/TransactionTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/BuyerTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Transformers/SellerTransformer.php",
 		"/D/xampp/htdocs/restfulapi/app/Transformers/UserTransformer.php",
+		"/D/xampp/htdocs/restfulapi/app/Traits/ApiResponser.php",
+		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/ApiController.php",
+		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Admin/UserController.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/emails/quote_proposal_send_to_business_admin_new.blade.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/emails/quote_proposal_new.blade.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app/Http/Controllers/GetAQuoteController.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/emails/quote_proposal_send_to_business_admin.blade.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/README.md",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/.gitignore",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/resources/views/quote/new-getaqoute.blade.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app/Mail/QuoteProposalEmail.php",
+		"/D/xampp/htdocs/MIYN Github/live.miyn.app/app/Mail/QuoteProposalEmailSendToBusinessAdmin.php",
+		"/D/xampp/htdocs/restfulapi/routes/api.php",
 		"/D/xampp/htdocs/restfulapi/app/Buyer.php",
 		"/D/xampp/htdocs/restfulapi/app/Category.php",
 		"/D/xampp/htdocs/restfulapi/app/Product.php",
 		"/D/xampp/htdocs/restfulapi/app/Seller.php",
 		"/D/xampp/htdocs/restfulapi/app/Transaction.php",
 		"/D/xampp/htdocs/restfulapi/app/User.php",
-		"/D/xampp/htdocs/restfulapi/app/Transformers/SellerTransformer.php",
-		"/D/xampp/htdocs/restfulapi/app/Transformers/BuyerTransformer.php",
-		"/D/xampp/htdocs/restfulapi/app/Transformers/TransactionTransformer.php",
-		"/D/xampp/htdocs/restfulapi/app/Transformers/CategoryTransformer.php",
-		"/D/xampp/htdocs/restfulapi/app/Transformers/ProductTransformer.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Middleware/SignatureMiddlware.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Kernel.php",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
@@ -251,7 +301,6 @@
 		"/D/xampp/htdocs/LAW-APP/resources/views/lawyer/profile.blade.php",
 		"/D/xampp/htdocs/LAW-APP/resources/views/pages/single-category.blade.php",
 		"/D/xampp/htdocs/LAW-APP/resources/views/pages/single-lawyer-show.blade.php",
-		"/D/xampp/htdocs/LAW-APP/app/Http/Controllers/Admin/UserController.php",
 		"/D/xampp/htdocs/LAW-APP/resources/views/admin/user/userApproveList.blade.php",
 		"/D/xampp/htdocs/LAW-APP/app/Model/User.php",
 		"/D/xampp/htdocs/LAW-APP/.env",
@@ -280,7 +329,6 @@
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Product/ProductController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Transaction/TransactionController.php",
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Transaction/TransactionSellerController.php",
-		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/node_modules/opentok-accelerator-core/browser/opentok-acc-core.js",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2014_10_12_000000_create_users_table.php",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054503_create_transactions_table.php",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_054445_create_products_table.php",
@@ -291,10 +339,8 @@
 		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/Buyer/BuyerController.php",
 		"/D/xampp/htdocs/restfulapi/app/Scopes/BuyerScope.php",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasGlobalScopes.php",
-		"/D/xampp/htdocs/restfulapi/app/Http/Controllers/ApiController.php",
 		"/D/xampp/htdocs/fresh-laravel-6/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
 		"/D/xampp/htdocs/restfulapi/app/Exceptions/Handler.php",
-		"/D/xampp/htdocs/restfulapi/app/Traits/ApiResponser.php",
 		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
 		"/D/xampp/htdocs/restfulapi/storage/logs/laravel.log",
 		"/D/xampp/htdocs/restfulapi/.env",
@@ -313,20 +359,7 @@
 		"/D/xampp/htdocs/fresh-laravel-6/app/Http/Controllers/ApiController.php",
 		"/D/xampp/htdocs/restfulapi/database/migrations/2021_04_01_085938_category_product_table.php",
 		"/D/xampp/htdocs/restfulapi/config/database.php",
-		"/D/xampp/htdocs/restfulapi/app/Providers/AppServiceProvider.php",
-		"/D/xampp/htdocs/restfulapi/composer.json",
-		"/D/xampp/htdocs/restfulapi/app/Providers/RouteServiceProvider.php",
-		"/C/Users/shobu/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
-		"/C/Users/shobu/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
-		"/C/Users/shobu/AppData/Roaming/Sublime Text 3/Packages/npm-install/NpmInstall.sublime-settings",
-		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Notifications/HasDatabaseNotifications.php",
-		"/C/Users/shobu/Downloads/app.miyn.app_20-03-21/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
-		"/D/xampp/htdocs/restfulapi/restfulapi.sublime-project",
-		"/D/xampp/htdocs/udemyapi/.env",
-		"/D/xampp/htdocs/laravel_8_api_crud/routes/api.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Controllers/API/ProjectController.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Controllers/API/AuthController.php",
-		"/D/xampp/htdocs/laravel_8_api_crud/app/Http/Resources/ProjectResource.php"
+		"/D/xampp/htdocs/restfulapi/app/Providers/AppServiceProvider.php"
 	],
 	"find":
 	{
@@ -345,6 +378,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"substr",
+			"HTTP_X_FORWARDED_FOR",
+			"HTTP_CLIENT_IP",
+			"REMOTE_ADDR",
+			"ip(",
+			"ip->",
+			"ip",
+			"thanks for",
 			"user",
 			"category",
 			"user",
@@ -464,15 +505,7 @@
 			".client",
 			"$client",
 			"$employee",
-			"$client",
-			"value=\"{{",
-			"profile_image",
-			"->uid",
-			"$client",
-			"profile_image",
-			"$passport",
-			"passport",
-			"clients"
+			"$client"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -491,8 +524,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3209,
+								3209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Traits/ApiResponser.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2174,
+								2174
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1474.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -585,7 +677,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 427.0,
+	"side_bar_width": 406.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
