@@ -2,13 +2,11 @@
 
 namespace App;
 
-use Illuminate\Support\Str;
 use App\Transformers\UserTransformer;
-use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Str;
 
 class User extends Authenticatable
 {
@@ -18,12 +16,10 @@ class User extends Authenticatable
     const UNVERIFIED_USER = '0';
 
     const ADMIN_USER = 'true';
-    const  REGULAR_USER =  'false';
+    const REGULAR_USER = 'false';
 
     public $transformer = UserTransformer::class;
-
     protected $table = 'users';
-
     protected $dates = ['deleted_at'];
 
     /**
@@ -32,7 +28,12 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'verified', 'verification_token', 'admin',
+        'name',
+        'email',
+        'password',
+        'verified',
+        'verification_token',
+        'admin',
     ];
 
     /**
@@ -41,22 +42,14 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password',
+        'remember_token',
+        'verification_token',
     ];
-
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime', 'verification_token',
-    ];
-
 
     public function setNameAttribute($name)
     {
-        $this->attributes['name'] = strtolower($name);   
+        $this->attributes['name'] = strtolower($name);
     }
 
     public function getNameAttribute($name)
@@ -69,16 +62,18 @@ class User extends Authenticatable
         $this->attributes['email'] = strtolower($email);
     }
 
-    public function isVerified(){
+    public function isVerified()
+    {
         return $this->verified == User::VERIFIED_USER;
     }
 
-    public function isAdmin(){
+    public function isAdmin()
+    {
         return $this->admin == User::ADMIN_USER;
     }
 
-    public static function generateVerificationCode(){
+    public static function generateVerificationCode()
+    {
         return Str::random(40);
     }
-
 }

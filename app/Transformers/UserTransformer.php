@@ -8,24 +8,6 @@ use League\Fractal\TransformerAbstract;
 class UserTransformer extends TransformerAbstract
 {
     /**
-     * List of resources to automatically include
-     *
-     * @var array
-     */
-    protected $defaultIncludes = [
-        //
-    ];
-    
-    /**
-     * List of resources possible to include
-     *
-     * @var array
-     */
-    protected $availableIncludes = [
-        //
-    ];
-    
-    /**
      * A Fractal transformer.
      *
      * @return array
@@ -39,17 +21,15 @@ class UserTransformer extends TransformerAbstract
             'isVerified' => (int)$user->verified,
             'isAdmin' => ($user->admin === 'true'),
             'creationDate' => (string)$user->created_at,
-            'lastChanged' => (string)$user->updated_at,
+            'lastChange' => (string)$user->updated_at,
             'deletedDate' => isset($user->deleted_at) ? (string) $user->deleted_at : null,
 
             'links' => [
                 [
                     'rel' => 'self',
                     'href' => route('users.show', $user->id),
-                ],               
-
+                ],
             ]
-
         ];
     }
 
@@ -62,12 +42,11 @@ class UserTransformer extends TransformerAbstract
             'isVerified' => 'verified',
             'isAdmin' => 'admin',
             'creationDate' => 'created_at',
-            'lastChanged' => 'updated_at',
+            'lastChange' => 'updated_at',
             'deletedDate' => 'deleted_at',
         ];
 
         return isset($attributes[$index]) ? $attributes[$index] : null;
-
     }
 
     public static function transformedAttribute($index)
@@ -85,5 +64,4 @@ class UserTransformer extends TransformerAbstract
 
         return isset($attributes[$index]) ? $attributes[$index] : null;
     }
-    
 }
