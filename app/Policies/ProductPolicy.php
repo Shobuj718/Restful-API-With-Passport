@@ -4,11 +4,13 @@ namespace App\Policies;
 
 use App\Product;
 use App\User;
+use App\Traits\AdminActions;
+
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class ProductPolicy
 {
-    use HandlesAuthorization;
+    use HandlesAuthorization, AdminActions;
 
     /**
      * Determine whether the user can view the product.
