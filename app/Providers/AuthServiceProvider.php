@@ -7,10 +7,12 @@ use Carbon\Carbon;
 use App\User;
 use App\Buyer;
 use App\Seller;
+use App\Product;
 use App\Transaction;
 use App\Policies\BuyerPolicy;
 use App\Policies\SellerPolicy;
 use App\Policies\UserPolicy;
+use App\Policies\ProductPolicy;
 use App\Policies\TransactionPolicy;
 
 use Laravel\Passport\Passport;
@@ -31,6 +33,7 @@ class AuthServiceProvider extends ServiceProvider
         Seller::class => SellerPolicy::class,
         User::class => UserPolicy::class,
         Transaction::class => TransactionPolicy::class,
+        Product::class => ProductPolicy::class,
     ];
 
     /**
