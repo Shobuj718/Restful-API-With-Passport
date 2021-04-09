@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Buyer;
 
 use App\Buyer;
-use App\Http\Controllers\ApiController;
 use Illuminate\Http\Request;
+use App\Http\Controllers\ApiController;
+use Illuminate\Auth\Access\AuthorizationException;
 
 class BuyerController extends ApiController
 {
@@ -23,6 +24,13 @@ class BuyerController extends ApiController
      */
     public function index()
     {
+        /*if(Gate::denies('admin-action')){
+            throw  new AuthorizationException('This actions is unauthorized');
+            
+        }*/
+
+        $this->allowedAdminAction();
+        
         $buyers = Buyer::has('transactions')->get();
 
         return $this->showAll($buyers);
