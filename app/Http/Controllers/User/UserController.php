@@ -22,6 +22,10 @@ class UserController extends ApiController
 
         $this->middleware('scope:manage-account')->only(['show', 'update']);
 
+         $this->middleware('can:view,user')->only('index');
+         $this->middleware('can:update,user')->only('update');
+         $this->middleware('can:delete,user')->only('destroy');
+
     }
     /**
      * Display a listing of the resource.
